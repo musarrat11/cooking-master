@@ -1,0 +1,71 @@
+#cards,#cards1{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 2% 10%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(24, 23, 23, 0.2);
+  border-radius: 12px;
+  margin-bottom: 5%;
+  width:200px;
+  height: 270px;
+}
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav{
+      padding: 10px 40px;
+      margin-bottom: 7%;
+  }
+  .nav{
+float: right;
+  }
+  .topnav a:hover {
+    background-color: rgb(42, 19, 68);
+    color: white;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+.btn {
+  background: rgb(42, 19, 68);
+  outline: none;
+}
+.input-group{
+  padding: 0% 30%;
+}
+.card-body{
+  text-align: center;
+}
+body{
+  background-color: rgb(252, 195, 90);
+}
+.norecipe{
+  text-align: center;
+  color: crimson;
+}
+.head{
+  box-shadow: 0 4px 8px 0 rgba(24, 23, 23, 0.2);
+  border-radius: 12px;
+  margin-bottom: 5%;
+  width:500px;
+  height: 700px;
+  border: 1px solid green;
+}
+.list{
+width: 400px;
+background-color: white;
+}
+#showfull{
+  padding: 2% 32%;
+}
+#one{
+  text-align: start;
+}
